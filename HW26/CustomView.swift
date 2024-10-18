@@ -54,9 +54,9 @@ extension CustomView {
     
     
     override func point(inside point: CGPoint, with event: UIEvent?) -> Bool {
-        var point = super.point(inside: point, with: event)
+        let pointNew = super.point(inside: point, with: event)
         
-        if !point {
+        if !pointNew {
             for subview in subviews {
                 let pointInSubview = subview.convert(point, from: self)
                 if subview.point(inside: pointInSubview, with: event) {
@@ -65,7 +65,7 @@ extension CustomView {
             }
         }
         
-        return point
+        return pointNew
     }
 }
 

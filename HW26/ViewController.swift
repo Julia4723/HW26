@@ -9,7 +9,6 @@ import UIKit
 
 class ViewController: UIViewController, ICustomViewDelegate {
 
-
     private let viewA = CustomView(color: .gray, name: "A")
     private let viewB = CustomView(color: .green, name: "B")
     private let viewC = CustomView(color: .red, name: "C")

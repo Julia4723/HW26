@@ -58,7 +58,7 @@
 		0631E66D2CBED3D900F2785D /* HW26 */ = {
 			isa = PBXGroup;
 			children = (
-				CEB31EB62CC2A54600564766 /* UIVIew.swift */,
+				CEB31EB92CC2D08B00564766 /* Extentions */,
 				CEB31E962CC269D800564766 /* CustomView.swift */,
 				0631E66E2CBED3D900F2785D /* AppDelegate.swift */,
 				0631E6702CBED3D900F2785D /* SceneDelegate.swift */,
@@ -68,6 +68,14 @@
 				0631E67C2CBED3DB00F2785D /* Info.plist */,
 			);
 			path = HW26;
+			sourceTree = "<group>";
+		};
+		CEB31EB92CC2D08B00564766 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				CEB31EB62CC2A54600564766 /* UIVIew.swift */,
+			);
+			path = Extentions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
